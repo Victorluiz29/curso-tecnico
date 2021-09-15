@@ -1,0 +1,170 @@
+/*Pagina Inicial*/
+
+
+body{
+
+	background-color: white
+
+
+}
+
+
+.menu{
+
+	margin-left: -5px;
+	width: 1270px;
+	background-color: #00BFFF
+
+}
+
+
+
+
+.dev a{
+	color: red;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 27px;
+	margin-top: -31px;
+	float: right;
+}
+
+.menu a{
+	clear: both;
+	text-decoration: none;
+	color: black;
+	padding: 15px;
+	font-size: 25px;
+
+}
+
+
+#logo1{
+	text-align: center;
+	font-size: 25px;
+
+}
+
+.img3 img{
+	margin-right: -100px;
+	margin-top: -0px;
+}
+
+
+
+.img img{
+	margin-left: -5px;
+	width: 430px;
+	float: left;
+}
+
+.rede li{
+
+	list-style-type: none;
+
+}
+
+.rede{
+	position: absolute;
+	float: right;
+	display: flex;
+	margin-top: -100px;
+
+}
+
+
+.rede img{
+	width: 38px;
+
+	padding: 20px;
+}
+
+
+.menu ul li{
+
+	display: inline-block;
+
+}
+
+.sobre1 p{
+	
+	font-family: arial;
+	font-size: 23px
+}
+
+.sobre{
+	
+	margin-top: 320px;
+}
+
+@media (max-width: 990px){
+
+	#logo1{
+		margin-left: -120px;
+
+		font-size: 40px;
+	}
+
+	.dev a{
+		font-size: 35px;
+		margin-right: -290px;
+
+		margin-top: -100px;
+
+	}
+
+		.rede img{
+		right: 100px;
+
+		padding: 25px;
+
+		
+		margin-bottom: -570px;
+
+		width: 65px;
+	}
+
+
+	.img{
+		display: inline;
+	}
+
+	.menu a{
+		font-size: 50px;
+	}
+
+	.img1{
+		margin-left: 10px;
+	}
+
+	.img1 .img2{
+		clear: both;
+		width: 200px;
+	}
+
+	.img3{
+		clear: both;
+		position: absolute;
+		max-width: 200px;
+		width: 0px auto;
+		margin-left: 840px;
+		float: right;
+	}
+
+	.sobre{
+		position: absolute;
+		margin-top: 500px;
+	}
+
+	.sobre1 p{
+		text-align: center;
+		width: 1250px;
+
+		font-size: 60px;
+	}
+
+	.sobre1 h2{
+
+		font-size: 70px;
+	}
+}
